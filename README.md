@@ -3,6 +3,12 @@ superdelegate
 
 **Delegate methods and properties to child objects in a terse, explicit style**
 
+### Installation
+
+```bash
+$ pip install superdelegate
+```
+
 Consider the motivating example of a sorted list. In order to encapsulate the list and prevent clients from breaking the sorted order, we want to only allow certain methods through to the underlying list:
 
 ```python
