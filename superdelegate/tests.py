@@ -18,7 +18,7 @@ def test_delegated_method_arrives_at_child():
     fruits = ImmutableList(['apple', 'banana', 'pineapple'])
     assert len(fruits) == 3
     # we should be able to iterate over the ImmutableList
-    for f in fruits:
+    for _ in fruits:
         pass
     assert fruits[1] == 'banana'
 
